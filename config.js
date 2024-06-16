@@ -8,11 +8,11 @@ global.autoReadAll = process.env.AUTO_READ_ALL || false;
 global.antitags = process.env.ANTITAGS || true;
 
 // Auto functioner
-global.autoTyping = process.env.AUTO_TYPING || false;
+global.autoTyping = process.env.AUTO_TYPING || true;
 global.autoRecord = process.env.AUTO_RECORD || false;
 global.groupevent = process.env.GROUPEVENT || false;
 global.statusseen = process.env.STATUSSEEN || true;
-global.autoreadgc = process.env.AUTOREADGC || true;
+global.autoreadgc = process.env.AUTOREADGC || false;
 
 
 // Auth information
@@ -26,15 +26,15 @@ global.github = "https://github.com/Kai0071";
 
 
 // Default prefix
-global.prefa = process.env.PREFIX ? process.env.PREFIX.split(",") : ["."];
-
+global.prefa = process.env.PREFIX ? process.env.PREFIX.split["."]
+                                                             
 
 // Owner information
-global.Owner = process.env.OWNER ? process.env.OWNER.split(",") : ["916297175943", "919362639362"];
-global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split(",") : ["916297175943", "919362639362"];
+global.Owner = process.env.OWNER ? process.env.OWNER.split["233532082279"];
+global.OwnerNumber = process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.split["233532082279"];
 global.ownertag = process.env.OWNER_TAG ? process.env.OWNER_TAG.split(",") : ["916297175943"];
-global.OwnerName = process.env.OWNER_NAME || "Kai";
-global.BotName = process.env.BOT_NAME || "A17";
+global.OwnerName = process.env.OWNER_NAME || "Pandayatti";
+global.BotName = process.env.BOT_NAME || "Pandayatti";
 global.packname = process.env.PACK_NAME || "A17 Bot";
 global.author = "By: Kai";
 global.BotSourceCode = "https://github.com/Kai0071/A17";
